@@ -31,9 +31,14 @@ function buyKey() {
     }
 }
 
+function play() {
+    var audio = document.getElementById("audio");
+  }
+
 function key_Click(amount){
     score = score + amount;
     document.getElementById("score").innerHTML = score;
+    // audio.play();
 }
 
 function updateSpS(){
@@ -45,4 +50,6 @@ setInterval (function() {
     score = score + keys;
     score = score + stabs * 2;
     document.getElementById("score").innerHTML = score;
+
+    document.title = score + " keyPoints";
 }, 1000);

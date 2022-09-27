@@ -53,3 +53,4 @@ setInterval (function() {
 
     document.title = score + " keyPoints";
 }, 1000);
+

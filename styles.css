@@ -129,6 +129,7 @@ a{
     background: linear-gradient(-45deg, #f7d204, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 25s ease infinite;
+
     
 }
 
@@ -268,12 +269,12 @@ p{
     color: white;
     font-size: large;
     height: 100vh;
-    display:flex;
     background-image: url("img/email.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 
 }
 
@@ -306,4 +307,10 @@ textarea{
 
 .fun-link{
     color: #e73c7e;
+}
+
+@media (max-width: 768px) {
+  #carrd{
+    visibility: hidden;
+  }
 }

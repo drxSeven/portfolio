@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+    <script src="scripts.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="typed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <section class=" p-5 bg-dark text-light " id="sec2">
+        <div class="container">
+        <div class="col-md p5 ">
+            <br>
+            <h1><span class="tex2"></span></h1>
+            <br>
+            <script>
+                    var typed = new Typed(".tex2", {
+                        strings: [
+                            "Welcome to the Fun Zone!"
+                        ],
+                        typeSpeed: 60,
+                        loop: false,
+                    })                    
+            </script>
+            <h5 class="Lead">
+                Here you can click a big button and recieve one of the many tidbits of
+                knowlege I've collected! 
+                <br>
+                Enjoy!
+            </h5>
+            <br>
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <br>
+              </div>
+              <div class="col">
+                <br>
+                <br>
+                <button onclick="giveFact()" class="big-butn">Did you know. . .</button>
+                <br>
+                <br>
+                <br>
+                <br>
+              </div>
+              <div class="col">
+                <br>
+              </div>
+            </div>
+            <div ID="answers"></div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

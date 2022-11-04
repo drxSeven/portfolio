@@ -1,7 +1,8 @@
 
 
 function giveFact(){
-    let facts = ["a dime has 118 ridges on its edge.", "a tiger's stripes aren't just fur deep! Their markings also appear on their skin!",
+    let facts = ["a dime has 118 ridges on its edge.",
+     "a tiger's stripes aren't just fur deep! Their markings also appear on their skin!",
      "the tallest man ever recorded stood 8 feet 11 inches!",
      "Colossal squid are the heaviest living invertebrate on earth weighing up to 1,091 lbs(495 kg)!",
      "there are over seven hundred dog breeds across the world!",
